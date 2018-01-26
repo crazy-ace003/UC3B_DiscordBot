@@ -1,0 +1,1 @@
+- use 'event.text' to see all the whole command, use gsub to get part u want
