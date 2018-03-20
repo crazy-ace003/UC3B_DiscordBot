@@ -4,8 +4,8 @@ require'colorize'
 require_relative 'lib/commands'
 require_relative 'lib/coins'
 require_relative 'lib/netflix'
-token = "MzgwNTgzNjk4NzkxMzk5NDI0.DO8_vQ.Vc84O0pjrQcGzDQAXeG7nBDtZqk"
-bot = Discordrb::Commands::CommandBot.new token: 'MzgwNTgzNjk4NzkxMzk5NDI0.DO8_vQ.Vc84O0pjrQcGzDQAXeG7nBDtZqk', client_id:  380583698791399424, prefix: '!'
+token = ""
+bot = Discordrb::Commands::CommandBot.new token: '', client_id:  380583698791399424, prefix: '!'
 puts "This bot's invite URL is #{bot.invite_url}."
 bc = false
 
